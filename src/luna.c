@@ -113,6 +113,7 @@ int monthstoDaysleap(struct lunaDate* theDate){
 			return 0;
 			printf("Invalid Date.\n");
 	}
+}
 //This function will add together the days from the past year conversion and the current year conversion. -Isabella
 int totaldaysYAY(struct lunaDate* theDate){
 	isitaLeapYear(theDate); 
