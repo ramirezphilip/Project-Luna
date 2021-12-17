@@ -127,21 +127,21 @@ int totaldaysYAY(struct lunaDate* theDate){
 //This function will determine, using the moldulus operator and the total days since 2000, where the remainder relates to the moonphase and thus tell the user what phase the moon will be in. -Philip	
 void moonphase(lunastage){
 	if(lunastage>=0 && lunastage <=1){
-		printf("On your inputted date, there will be a new moon!");}
+		printf("On your inputted date, there will be a new moon!\n");}
         else if(lunastage>1 && lunastage<=7){
-	        printf("On your inputted date, there will be a waxing crescent!");}
+	        printf("On your inputted date, there will be a waxing crescent!\n");}
 	else if(lunastage>7 && lunastage<=8){
-		printf("On your inputted date, there will be a waxing quarter!");}
+		printf("On your inputted date, there will be a waxing quarter!\n");}
 	else if(lunastage>8 && lunastage<=15){
-		printf("On your inputted date, there will be a waxing gibbous!");}
+		printf("On your inputted date, there will be a waxing gibbous!\n");}
 	else if(lunastage>15 && lunastage<=16){
-		printf("On your inputted date, there will be a full moon!");}
+		printf("On your inputted date, there will be a full moon!\n");}
 	else if(lunastage>16 && lunastage<=22){
-		printf("On your inputted date, there will be a waning gibbous");}
+		printf("On your inputted date, there will be a waning gibbous!\n");}
 	else if(lunastage>22 && lunastage<=23){
-		printf("On your inputted date, there will be a waning quarter!");}
+		printf("On your inputted date, there will be a waning quarter!\n");}
 	else if(lunastage>23 && lunastage<=28){
-		printf("On your inputted date, there will be a waning crescent!");}
+		printf("On your inputted date, there will be a waning crescent!\n");}
 	else{
 		printf("Something went wrong :(");}
 }
